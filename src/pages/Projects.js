@@ -1,7 +1,11 @@
+import { ProjectDisplay } from "../components/ProjectDisplay"
+
 export const Projects = () => {
     return(
-        <div>
-            <h1>This is the projects page</h1>
+        <div className="projectswrapper">
+            <h1 id="projectTitle">Projects</h1>
+            <hr />
+            <ProjectDisplay />
         </div>
     )
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 export const Footer = () => {
     return(
         <div className="footerwrapper">
-        <p>Back To Top</p>
+        <p id="topBtn">Back To Top</p>
         <hr />
         <div className="links">
             <div className="nameandlinks">
@@ -16,7 +16,16 @@ export const Footer = () => {
                 </ul>
             </div>
             <div className="sociallinks">
-
+                <div className="col1">
+                <div className="text">Socials</div>
+                <div className="instagram"></div>
+                </div>
+                <div className="col2">
+                <div className="linkedin"></div>
+                <div className="github"></div>
+                </div>
+               
+                
             </div>
         </div>
         </div>
