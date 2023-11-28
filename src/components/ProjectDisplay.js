@@ -1,6 +1,5 @@
 export const ProjectDisplay = () => {
-    let count = 0;
-    let id = "box";
+   
     const projects = [
         {name: "weather app",
     description: "sf",
@@ -25,7 +24,7 @@ projurl: "",
     projurl: "",
     giturl: ""
 },
-{name: "Other app",
+{name: "Flash Card Quiz App",
     description: "sf",
     tags: "JS, bootstrap, Sass",
     color: "#35334C",

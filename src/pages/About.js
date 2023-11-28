@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export const About = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
     return(
         <div className="aboutwrapper">
         <h1 id="aboutTitle">About Me</h1>
@@ -17,13 +22,12 @@ export const About = () => {
             <div className="area">
                 <div className="image3"></div>
                 <div className="text2">
-                    <p>I love to read and own about 300 books</p>
-                    <p>I love to read and own about 300 books</p>
-                    <p>I love to read and own about 300 books</p>
-                    <p>I love to read and own about 300 books</p>
-                    <p>I love to read and own about 300 books</p>
-                    <p>I love to read and own about 300 books</p>
-                    <p>I love to read and own about 300 books</p>
+                    <p>@ I enjoy rewatching Bridgerton every couple of months.</p>
+                    <p>@ I love to read and own about 300 books.</p>
+                    <p>@ I have watched The Hobbit trilogy 5 times.</p>
+                    <p>@ I paint in my free time (acrylic and water).</p>
+                    <p>@ I like to earn certificates in fun things, like graphic design.</p>
+                    
                 </div>
             </div>
             

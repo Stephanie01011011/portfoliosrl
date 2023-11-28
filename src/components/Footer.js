@@ -18,11 +18,11 @@ export const Footer = () => {
             <div className="sociallinks">
                 <div className="col1">
                 <div className="text">Socials</div>
-                <div className="instagram"></div>
+                <a href="https://www.instagram.com/stephiirenee/"><div className="instagram"></div></a>
                 </div>
                 <div className="col2">
-                <div className="linkedin"></div>
-                <div className="github"></div>
+                <a href="https://www.linkedin.com/in/slivengood01/"><div className="linkedin"></div></a>
+                <a href="https://github.com/Stephanie01011011"><div className="github"></div></a>
                 </div>
                
                 

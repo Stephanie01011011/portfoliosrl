@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 export const Contact = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
     return(
         <div className="contactwrapper">
             <h1 id="contactTitle">Contact</h1>
@@ -9,18 +14,18 @@ export const Contact = () => {
                 </div>
                 <div className="conttext">
                     <div className="contsocials">
-                    <div className="instagram"></div>
-                    <div className="linkedin"></div>
-                <div className="github"></div>
+                    <a href="https://www.instagram.com/stephiirenee/"><div className="instagram"></div></a>
+                    <a href="https://www.linkedin.com/in/slivengood01/"><div className="linkedin"></div></a>
+                    <a href="https://github.com/Stephanie01011011"><div className="github"></div></a>
                     </div>
                     <div className="boxes">
                         <div className="phone">
                             <h1>Phone</h1>
-                            <p>(463) 246-8451</p>
+                            <a href="tel:463-246-8451" id="phonenumber">(463) 246-8451</a>
                             </div>
                         <div className="email">
                             <h1>Email</h1>
-                            <p>sreneelive@gmail.com</p>
+                            <a href="mailto:sreneelive@gmail.com" id="email">sreneelive@gmail.com</a>
                             </div>
                     </div>
                 </div>

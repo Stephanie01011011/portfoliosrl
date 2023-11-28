@@ -22,7 +22,9 @@ export const Skills = () => {
             })}
             </div>
             <button id="skillsBtn">See More</button>
-            <p id="topBtn">Back To Top</p>
+            <p id="topBtn" onClick={() => {
+                 window.scrollTo(0, 0)
+            }}>Back To Top</p>
         </div>
     )
 }

@@ -69,6 +69,10 @@ ul a{
   text-decoration: none;
   color: rgb(19, 19, 19);
 }
+ul a:hover{
+  text-decoration: underline;
+}
+
 
 .navWrapper .name{
   position: absolute;
@@ -151,6 +155,7 @@ hr{
 }
 .skillswrapper{
   background-color: #032A23;
+  margin-bottom: -20px;
 }
 .skillswrapper h1{
   font-size: 84px;
@@ -232,7 +237,7 @@ hr{
 
 }
 .github{
-  background-image: url(../public/291716_github_logo_social\ network_social_icon.png);
+  background-image: url(../public/3259374_github_media_social_icon.png);
   width: 40px;
   height: 40px;
   background-repeat: no-repeat;
@@ -241,8 +246,8 @@ hr{
 }
 .footerwrapper{
   background-color: #032A23;
-  margin-top: -30px;
-  padding-top: 100px;
+  
+  
 }
 .footerwrapper a{
   color: white;
@@ -272,7 +277,10 @@ hr{
 .projectbox{
   width: 450px;
   margin-top: 80px;
-  margin-bottom: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #032A23;
+  
   
 }
 .btns{
@@ -281,7 +289,7 @@ hr{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  
   
  
 }
@@ -294,9 +302,10 @@ hr{
   
 }
 .projectdisplaywrapper{
-  background-color: #032A23;
+  
   display: grid;
   margin: auto;
+  margin-bottom: 80px;
   grid-template-columns: 40% 40%;
   justify-content: center;
   align-items: center;
@@ -348,9 +357,10 @@ h1{
   margin-left: 10%;
 }
 .aboutdisplay{
-  background-color: #032A23;
+  
 }
 .area{
+  
   display: flex;
   margin-bottom: 30px;
   justify-content: space-evenly;
@@ -358,34 +368,37 @@ h1{
   
 }
 .text1{
+  padding: 5px;
   width: 55%;
-  color: white;
+  color: #032A23;
   line-height: 2;
   border-style: solid;
-  border-width: 0.3px;
-  border-color: white;
+  border-width: 1px;
+  border-color: #032A23;
   margin-bottom: 100px;
+  text-align: left;
 }
 .image1{
-  background-image: url(../public/compflower.gif);
+  background-image: url(../public/aboutimg1.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 250px;
-  height: 260px;
+  background-size: contain;
+  width: 240px;
+  height: 240px;
   
 
 }
 .image2{
-  background-image: url(../public/compflower.gif);
+  background-image: url(../public/aboutimg2.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 250px;
-  height: 260px;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  
 }
 .image3{
-  background-image: url(../public/compflower.gif);
+  background-image: url(../public/aboutimg3.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 260px;
   height: 260px;
   margin-left: 6%;
@@ -396,13 +409,15 @@ h1{
  height: fit-content;
  width: 300px;
   
-  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+ color: #032A23;
   border-style: solid;
-  border-width: 0.3px;
-  border-color: white;
+  border-width: 1px;
+  border-color: #032A23;
   justify-content: center;
   align-items: center;
-  
+  text-align: left;
   
 }
 #contactTitle{
@@ -416,6 +431,8 @@ h1{
   background-size: cover;
   width: 260px;
   height: 500px;
+  border-style: solid;
+  border-width: 2px;
 }
 .conttext{
   width: 500px;
@@ -441,8 +458,22 @@ h1{
   margin-top: 80px;
   color: white;
 }
-.boxes p{
+#email {
   font-size: 12px;
+  text-decoration: none;
+  color: white;
+  
+}
+#phonenumber{
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+#email:hover{
+  text-decoration: underline;
+}
+#phonenumber:hover{
+  text-decoration: underline;
 }
 .phone{
   background-color: #8D7A4A;
@@ -460,6 +491,7 @@ h1{
 #topBtn{
   color: white;
   text-decoration: underline;
+  
 }
 
 
