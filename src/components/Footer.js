@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 export const Footer = () => {
     return(
         <div className="footerwrapper">
-        <p id="topBtn">Back To Top</p>
+        <div className="spacing"></div>
         <hr />
         <div className="links">
             <div className="nameandlinks">

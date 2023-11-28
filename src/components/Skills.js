@@ -22,6 +22,7 @@ export const Skills = () => {
             })}
             </div>
             <button id="skillsBtn">See More</button>
+            <p id="topBtn">Back To Top</p>
         </div>
     )
 }

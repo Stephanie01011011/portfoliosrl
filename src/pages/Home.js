@@ -9,6 +9,7 @@ export const Home = () => {
             </div>
             <Welcome />
             <Skills />
+            
         </div>
     )
 }

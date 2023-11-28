@@ -112,6 +112,9 @@ ul a{
 hr{
   width: 90%;
 }
+.spacing{
+  height: 20px;
+}
 #welcomeBtn{
   width: 150px;
   height: 30px;
@@ -239,6 +242,7 @@ hr{
 .footerwrapper{
   background-color: #032A23;
   margin-top: -30px;
+  padding-top: 100px;
 }
 .footerwrapper a{
   color: white;
@@ -273,7 +277,6 @@ hr{
 }
 .btns{
   width: 450px;
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -308,6 +311,10 @@ hr{
   padding-bottom: 10px;
   align-items: center;
   justify-content: center;
+}
+.projectswrapper #topBtn{
+  margin: 0;
+  
 }
 
 #box2{
@@ -451,7 +458,8 @@ h1{
 
 }
 #topBtn{
- padding-top: 50px;
+  color: white;
+  text-decoration: underline;
 }
 
 

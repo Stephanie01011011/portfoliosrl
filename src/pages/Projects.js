@@ -6,6 +6,7 @@ export const Projects = () => {
             <h1 id="projectTitle">Projects</h1>
             <hr />
             <ProjectDisplay />
+            
         </div>
     )
 }
