@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +39,151 @@
     transform: rotate(360deg);
   }
 }
+
+.hero{
+  height: 60vh;
+  background-image: url(../public/Web\ Developer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.navWrapper{
+  display: flex;
+  align-items: center;
+  
+ 
+}
+ul{
+  display: flex;
+  align-items: left;
+}
+ul p{
+  margin-right: 80px;
+  
+}
+ul a{
+  text-decoration: none;
+  color: rgb(19, 19, 19);
+}
+
+.navWrapper .name{
+  position: absolute;
+  right: 50px;
+}
+.homeWrapper{
+
+}
+.hero{
+  
+  
+}
+.heroBtn{
+  width: 150px;
+  height: 30px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 55vh;
+  border-style: none;
+}
+.title{
+  text-align: left;
+}
+#largeText{
+  font-size: 84px;
+  margin-left: 80px;
+  margin-bottom: 0;
+}
+#smallerText{
+  font-size: 36px;
+  margin-left: 200px;
+  margin-top: 0;
+}
+#welcomemsg{
+  font-size: 18px;
+  width: 350px;
+  margin-left: 80px;
+  text-align: left;
+}
+hr{
+  width: 90%;
+}
+#welcomeBtn{
+  width: 150px;
+  height: 30px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 20px;
+  border-style: none;
+  
+}
+.welcomeWrapper{
+  text-align: left;
+  
+  
+}
+.welcmsgwrapper{
+  width: 400px;
+  text-align: center;
+}
+.welcomeimg{
+  background-image: url(../public/Web\ Developer.png);
+  width: 200px;
+  height: 250px;
+  margin-right: 20%;
+}
+.textimgwrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.skillswrapper{
+  background-color: #032A23;
+}
+.skillswrapper h1{
+  font-size: 84px;
+  color: white;
+}
+.skillbox{
+  background-color: white;
+  height: 150px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.skillboxwrapper{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+#skillsBtn{
+  width: 150px;
+  height: 30px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 20px;
+  border-style: none;
+  margin-bottom: 50px;
+}
+.nameandlinks h1{
+  text-align: left;
+  
+}
+.nameandlinks ul{
+  
+}
+.sociallinks{
+  border-style: solid;
+  border-width: 0.3px;
+  border-color: black;
+  border-radius: 10px;
+  height: 120px;
+  width: 150px;
+
+}
+.links{
+  display: flex;
+  justify-content: space-around;
+}
+
