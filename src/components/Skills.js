@@ -21,7 +21,9 @@ export const Skills = () => {
                 )
             })}
             </div>
-            <button id="skillsBtn">See More</button>
+            <div className="skillbtn">
+            <a href="https://www.linkedin.com/in/slivengood01/details/featured/1635551310909/single-media-viewer/?profileId=ACoAADHDYysBKolT3tXI-IFLrIKkbWWaFoDHtFM" id="skillsBtn">See More</a>
+            </div>
             <p id="topBtn" onClick={() => {
                  window.scrollTo(0, 0)
             }}>Back To Top</p>

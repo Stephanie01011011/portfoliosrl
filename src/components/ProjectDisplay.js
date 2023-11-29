@@ -1,36 +1,29 @@
 export const ProjectDisplay = () => {
    
     const projects = [
-        {name: "weather app",
+        {name: "Weather App",
     description: "sf",
-    tags: "JS, bootstrap, Sass",
+    tags: "JS, HTML/CSS, API Integration, React",
     color: "#8D7A4A",
     id: "box1",
-    projurl: "",
-    giturl: ""
-}, {name: "To Do List app",
+    projurl: "https://react-weather-api-steph.netlify.app/",
+    giturl: "https://github.com/Stephanie01011011/react-weather"
+}, {name: "To Do List",
 description: "sf",
-tags: "JS, bootstrap, Sass",
+tags: "JS, React, HTML/CSS",
 color: "#672243",
 id: "box2",
-projurl: "",
-    giturl: ""
+projurl: "https://Stephanie01011011.github.io/ReactTodo",
+    giturl: "https://github.com/Stephanie01011011/ReactTodo"
 },
-{name: "Library app",
-    description: "sf",
-    tags: "JS, bootstrap, Sass",
-    color: "#3E523F",
-    id: "box3",
-    projurl: "",
-    giturl: ""
-},
+
 {name: "Flash Card Quiz App",
     description: "sf",
-    tags: "JS, bootstrap, Sass",
+    tags: "JS, React, HTML/CSS",
     color: "#35334C",
     id: "box4",
-    projurl: "",
-    giturl: ""
+    projurl: "https://stephanie01011011.github.io/flashcardweb",
+    giturl: "https://github.com/Stephanie01011011/flashcardweb"
 }
 
     ];
@@ -49,8 +42,8 @@ projurl: "",
                         </div>
                     </div>
                     <div className="btns">
-                    <button>View Project</button>
-                    <button>Github Repo</button>
+                    <a href={project.projurl}>View Project</a>
+                    <a href={project.giturl}>Github Repo</a>
                     </div>
                     </div>
                     

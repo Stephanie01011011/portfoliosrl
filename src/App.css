@@ -57,6 +57,15 @@ body{
   
  
 }
+.menu{
+  background-image: url(../public/menuIcon.png);
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  display: none;
+}
 ul{
   display: flex;
   align-items: left;
@@ -183,15 +192,22 @@ hr{
   gap: 20px;
 
 }
-#skillsBtn{
+.skillbtn{
+  background-color: rgb(216, 216, 216);
   width: 150px;
   height: 30px;
-  background-color: rgb(216, 216, 216);
   border-radius: 20px;
-  border-style: none;
-  margin-top: 30px;
- margin-bottom: 50px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  
 }
+#skillsBtn{
+  
+  text-decoration: none;
+}
+
 .nameandlinks h1{
   text-align: left;
   
@@ -293,12 +309,16 @@ hr{
   
  
 }
-.btns button{
+.btns a{
+ padding-top: 8px;
   border-radius: 20px;
   border-style: none;
   height: 30px;
-  width: 100px;
+  width: 130px;
   margin-top: 20px;
+  background-color: rgb(216, 216, 216);
+  text-decoration: none;
+  color: #032A23;
   
 }
 .projectdisplaywrapper{
@@ -327,23 +347,23 @@ hr{
 }
 
 #box2{
-  background-image: url(../public/ss1.png);
+  background-image: url(../public/ss2.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 450px;
   height: 260px;
 }
 #box3{
-  background-image: url(../public/ss1.png);
+  background-image: url(../public/ss2.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 450px;
   height: 260px;
 }
 #box4{
-  background-image: url(../public/ss1.png);
+  background-image: url(../public/ss3.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 450px;
   height: 260px;
 }
@@ -455,7 +475,7 @@ h1{
 .boxes{
   display: flex;
   justify-content: space-evenly;
-  margin-top: 80px;
+  margin-top: 50px;
   color: white;
 }
 #email {
@@ -493,6 +513,100 @@ h1{
   text-decoration: underline;
   
 }
+#topBtn:hover{
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .name{
+    display: none;
+  }
+  .navWrapper{
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+  }
+  ul{
+    display: block;
+  }
+  ul p{
+    
+    margin-right: 0;
+  }
+  .menu{
+    display: block;
+  }
+.welcomeimg{
+  display: none;
+}
+.skillboxwrapper{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 
+}
+#footerLinks{
+  display: flex;
+  
+}
+#footerLinks a{
+  margin-right: 10px;
+}
+.projectdisplaywrapper{
+  
+  display: block;
+  margin: auto;
+  margin-bottom: 80px;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+
+}
+.projectbox{
+  margin: auto;
+}
+.btns{
+  margin: auto;
+  margin-bottom: 30px;
+}
+.area{
+  
+  display: block;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  
+}
+.text1{
+  margin: auto;
+  width: 90%;
+  margin-top: 20px;
+}
+.text2{
+  margin: auto;
+  margin-top: 20px;
+}
+.image1{
+  margin: auto;
+}
+.image2{
+  margin: auto;
+  margin-top: 20px;
+}
+.image3{
+  margin: auto;
+}
+.contimg{
+  display: none;
+}
+  
+}
 
 
