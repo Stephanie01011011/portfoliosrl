@@ -22,7 +22,7 @@ export const Navbar = () => {
             
     <ul>
         
-        <Link to="/" id='homelink'><p>Home</p></Link>
+        <Link to="/portfoliosrl" id='homelink'><p>Home</p></Link>
         <Link to="/projects" id='projectlink'><p>Projects</p></Link>
         <Link to="/about" id='aboutlink'><p>About</p></Link>
         <Link to="/contact" id='contactlink'><p>Contact</p></Link>

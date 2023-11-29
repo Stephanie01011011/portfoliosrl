@@ -9,7 +9,7 @@ export const Footer = () => {
             <div className="nameandlinks">
                 <h1>Stephanie</h1>
                 <ul id="footerLinks">
-                <Link to="/" className='footerLink'><p>Home</p></Link>
+                <Link to="/portfoliosrl" className='footerLink'><p>Home</p></Link>
                 <Link to="/projects" className='footerLink'><p>Projects</p></Link>
                 <Link to="/about" className='footerLink'><p>About</p></Link>
                 <Link to="/contact" className='footerLink'><p>Contact</p></Link>
