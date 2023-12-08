@@ -684,6 +684,10 @@ h1{
     margin-top: 25vh;
     
   }
+  ul p{
+    margin: auto;
+    
+  }
   
 }
 
