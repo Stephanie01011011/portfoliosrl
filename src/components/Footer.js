@@ -10,9 +10,9 @@ export const Footer = () => {
                 <h1>Stephanie</h1>
                 <ul id="footerLinks">
                 <Link to="/portfoliosrl" className='footerLink'><p>Home</p></Link>
-                <Link to="/projects" className='footerLink'><p>Projects</p></Link>
-                <Link to="/about" className='footerLink'><p>About</p></Link>
-                <Link to="/contact" className='footerLink'><p>Contact</p></Link>
+                <Link to="/portfoliosrl/projects" className='footerLink'><p>Projects</p></Link>
+                <Link to="/portfoliosrl/about" className='footerLink'><p>About</p></Link>
+                <Link to="/portfoliosrl/contact" className='footerLink'><p>Contact</p></Link>
                 </ul>
             </div>
             <div className="sociallinks">

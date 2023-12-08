@@ -747,6 +747,16 @@ h1{
     width: 100%;
     height: 260px;
   }
+  #aboutTitle{
+    font-size: 60px;
+    text-align: center;
+    margin-left: auto;
+  }
+  #contactTitle{
+    font-size: 60px;
+    text-align: center;
+    margin-left: auto;
+  }
   
 }
 
