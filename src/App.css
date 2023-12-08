@@ -714,9 +714,39 @@ h1{
     align-items: center;
    
   }
+  .projectbox{
+    width: 95%;
+  }
+  .projimg{
+    width: 95%;
+  }
  
- 
-
+  
+  #projectTitle{
+    font-size: 60px;
+    text-align: center;
+    margin-left: auto;
+  }
+  .btns{
+    width: 100%;
+  }
+  #box1{
+  
+    width: 100%;
+    height: 260px;
+  }
+  #box2{
+    width: 100%;
+    height: 260px;
+  }
+  #box3{
+    width: 100%;
+    height: 260px;
+  }
+  #box4{
+    width: 100%;
+    height: 260px;
+  }
   
 }
 
