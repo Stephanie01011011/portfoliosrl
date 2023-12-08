@@ -212,9 +212,7 @@ hr{
   text-align: left;
   
 }
-.nameandlinks ul{
-  
-}
+
 .sociallinks{
   border-style: solid;
   border-width: 0.3px;
@@ -628,20 +626,23 @@ h1{
     font-size: 12px;
     width: 320px;
     margin: auto;
-    text-align: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
   #welcomeBtn{
-    width: 150px;
-    height: 30px;
-    background-color: rgb(216, 216, 216);
-    border-radius: 20px;
-    border-style: none;
+    width: 100px;
+   height: 20px;
+   font-size: 12px;
+   
     margin: auto;
     margin-top: 10px;
   }
   .welcmsgwrapper{
     width: 350px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .skillswrapper h1{
     font-size: 60px;
@@ -681,14 +682,22 @@ h1{
     
   }
   .heroBtn{
-   
+   width: 100px;
+   height: 20px;
+   font-size: 12px;
     margin-top: 25vh;
     
   }
   ul p{
     margin: auto;
+    margin-right: 25px;
     margin-bottom: 15px;
     
+    
+  }
+  ul{
+    align-items: center;
+  
   }
   .sociallinks{
     margin: auto;
@@ -701,6 +710,23 @@ h1{
     display: flex;
     justify-content: space-around;
   }
+  #footerLinks{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    
+    text-align: center;
+  }
+  #footerLinks a{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 85px;
+  }
+ 
+
   
 }
 
