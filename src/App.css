@@ -757,6 +757,13 @@ h1{
     text-align: center;
     margin-left: auto;
   }
+  .image1{
+    display: none;
+  }
+  .image2{
+    display: none;
+  }
+  
   
 }
 
