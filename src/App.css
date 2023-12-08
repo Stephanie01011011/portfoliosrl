@@ -639,7 +639,7 @@ h1{
     margin-top: 10px;
   }
   .welcmsgwrapper{
-    width: 350px;
+    
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -701,21 +701,14 @@ h1{
   }
   .sociallinks{
     margin: auto;
-    border-style: solid;
-    border-width: 0.3px;
-    border-color: white;
-    border-radius: 10px;
-    height: 120px;
-    width: 150px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
   }
   #footerLinks{
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 200px;
-    
     text-align: center;
   }
   #footerLinks a{
@@ -723,7 +716,7 @@ h1{
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-right: 85px;
+   
   }
  
 
