@@ -608,5 +608,83 @@ h1{
 }
   
 }
+@media screen and (max-width: 460px){
+.title{
+  text-align: center;
+}
+
+  #largeText{
+   
+    font-size: 46px;
+    margin: auto;
+    margin-bottom: 0;
+  }
+  #smallerText{
+    font-size: 36px;
+    margin: auto;
+    margin-top: 0;
+  }
+  #welcomemsg{
+    font-size: 12px;
+    width: 320px;
+    margin: auto;
+    text-align: left;
+  }
+  #welcomeBtn{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 20px;
+    border-style: none;
+    margin: auto;
+  }
+  .welcmsgwrapper{
+    width: 350px;
+    text-align: center;
+  }
+  .skillswrapper h1{
+    font-size: 60px;
+    color: white;
+  }
+  .skillbox{
+   
+    max-height: 80px;
+    min-height: 80px;
+  }
+  .skillbox h2{
+    padding: 0;
+
+  }
+  .skillboxwrapper{
+    
+    gap: 5px;
+  
+  }
+  .footerwrapper ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .links{
+    flex-direction: column;
+  }
+  .nameandlinks h1{
+    text-align: center;
+    
+  }
+  .hero{
+    height: 30vh;
+    background-image: url(../public/Web\ Developer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .heroBtn{
+   
+    margin-top: 25vh;
+    
+  }
+  
+}
 
 
