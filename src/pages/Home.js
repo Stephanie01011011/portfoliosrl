@@ -10,7 +10,7 @@ export const Home = () => {
     return(
         <div className="homeWrapper">
             <div className="hero">
-                <Link to="/projects"><button className="heroBtn">See Projects</button></Link>
+                <Link to="/portfoliosrl/projects"><button className="heroBtn">See Projects</button></Link>
             </div>
             <Welcome />
             <Skills />
