@@ -24,6 +24,14 @@ projurl: "https://Stephanie01011011.github.io/ReactTodo",
     id: "box4",
     projurl: "https://stephanie01011011.github.io/flashcardweb",
     giturl: "https://github.com/Stephanie01011011/flashcardweb"
+},
+{name: "Social Media Project",
+    description: "sf",
+    tags: "JS, React, HTML/CSS, Firebase",
+    color: "#35334C",
+    id: "box3",
+    projurl: "https://socialmedia-792e1.web.app/",
+    giturl: ""
 }
 
     ];
