@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoliosrl/static/css/main.e792839d.css",
-    "main.js": "/portfoliosrl/static/js/main.317ff49e.js",
+    "main.css": "/portfoliosrl/static/css/main.85067e43.css",
+    "main.js": "/portfoliosrl/static/js/main.ab147253.js",
     "static/media/aboutimg2.png": "/portfoliosrl/static/media/aboutimg2.e2e2e584d231d362d5d9.png",
     "static/media/aboutimg1.png": "/portfoliosrl/static/media/aboutimg1.1bffa81eedcb876ba70e.png",
     "static/media/aboutimg3.png": "/portfoliosrl/static/media/aboutimg3.d9d4abb9673af9bb08ab.png",
@@ -11,14 +11,15 @@
     "static/media/ss1.png": "/portfoliosrl/static/media/ss1.8c20d4b3d0e0f7864ed8.png",
     "static/media/ss3.png": "/portfoliosrl/static/media/ss3.2407389af831e2892830.png",
     "static/media/contactImg.png": "/portfoliosrl/static/media/contactImg.051c47b5d3f31c84a152.png",
+    "static/media/socialmediaproj.png": "/portfoliosrl/static/media/socialmediaproj.0156ca6e2df7557bc23e.png",
     "static/media/3259374_github_media_social_icon.png": "/portfoliosrl/static/media/3259374_github_media_social_icon.3fc3e932c8badf5dd303.png",
     "static/media/6929237_instagram_icon.png": "/portfoliosrl/static/media/6929237_instagram_icon.e403234cec2d4d1cf45c.png",
     "index.html": "/portfoliosrl/index.html",
-    "main.e792839d.css.map": "/portfoliosrl/static/css/main.e792839d.css.map",
-    "main.317ff49e.js.map": "/portfoliosrl/static/js/main.317ff49e.js.map"
+    "main.85067e43.css.map": "/portfoliosrl/static/css/main.85067e43.css.map",
+    "main.ab147253.js.map": "/portfoliosrl/static/js/main.ab147253.js.map"
   },
   "entrypoints": [
-    "static/css/main.e792839d.css",
-    "static/js/main.317ff49e.js"
+    "static/css/main.85067e43.css",
+    "static/js/main.ab147253.js"
   ]
 }
