@@ -144,6 +144,9 @@ hr{
   font-size: 28px;
   color: #672243;
 }
+#welcomeBtn:hover{
+  cursor: pointer;
+}
 .welcomeWrapper{
   text-align: center;
   
@@ -236,6 +239,9 @@ hr{
   margin-bottom: 0;
   font-size: 28px;
   color: white;
+}
+#projectBtn:hover{
+  cursor: pointer;
 }
 
 .nameandlinks h1{
