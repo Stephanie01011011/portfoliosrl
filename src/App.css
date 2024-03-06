@@ -129,12 +129,20 @@ hr{
   height: 20px;
 }
 #welcomeBtn{
-  width: 150px;
-  height: 30px;
-  background-color: rgb(216, 216, 216);
-  border-radius: 20px;
-  border-style: none;
+  
+ 
   margin-left: 35%;
+
+  width: 250px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #672243;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 28px;
+  color: #672243;
 }
 .welcomeWrapper{
   text-align: center;
@@ -193,19 +201,41 @@ hr{
 
 }
 .skillbtn{
-  background-color: rgb(216, 216, 216);
-  width: 150px;
-  height: 30px;
-  border-radius: 20px;
+  
   margin: auto;
   margin-top: 20px;
   margin-bottom: 50px;
-  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 250px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #672243;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 28px;
+  
   
 }
 #skillsBtn{
   
   text-decoration: none;
+  color: #672243;
+}
+#projectBtn{
+  width: 250px;
+  height: 60px;
+  background-color: #672243;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 28px;
+  color: white;
 }
 
 .nameandlinks h1{
@@ -276,6 +306,7 @@ hr{
   color: white;
   text-decoration: underline;
 }
+
 #projectTitle{
   font-size: 84px;
   text-align: left;
@@ -299,8 +330,9 @@ hr{
 }
 .btns{
   width: 450px;
+  
   display: flex;
-  flex-direction: column;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   
@@ -308,15 +340,25 @@ hr{
  
 }
 .btns a{
- padding-top: 8px;
-  border-radius: 20px;
-  border-style: none;
-  height: 30px;
-  width: 130px;
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
-  background-color: rgb(216, 216, 216);
+  
   text-decoration: none;
-  color: #032A23;
+  width: 250px;
+  height: 60px;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  
+  
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 28px;
+  color: #672243;
   
 }
 .projectdisplaywrapper{
@@ -324,7 +366,7 @@ hr{
   display: grid;
   margin: auto;
   margin-bottom: 80px;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 30% 30%;
   justify-content: center;
   align-items: center;
   gap: 5%;
@@ -374,9 +416,7 @@ h1{
   text-align: left;
   margin-left: 10%;
 }
-.aboutdisplay{
-  
-}
+
 .area{
   
   display: flex;

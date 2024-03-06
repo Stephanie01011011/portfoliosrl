@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Skills } from "../components/Skills";
 import { Welcome } from "../components/Welcome";
+
 import { useEffect } from "react";
 
 export const Home = () => {
@@ -10,8 +11,9 @@ export const Home = () => {
     return(
         <div className="homeWrapper">
             <div className="hero">
-                <Link to="/portfoliosrl/projects"><button className="heroBtn">See Projects</button></Link>
+                
             </div>
+            <Link to="/portfoliosrl/projects"><button id="projectBtn">Projects</button></Link>
             <Welcome />
             <Skills />
             
