@@ -1,6 +1,14 @@
 export const ProjectDisplay = () => {
    
     const projects = [
+        {name: "Product Landing Page",
+    description: "sf",
+    tags: "JS, React, HTML/CSS, Bootstrap",
+    color: "#35334C",
+    id: "box5",
+    projurl: "https://stephanie01011011.github.io/solarise/",
+    giturl: "https://github.com/Stephanie01011011/solarise"
+},
         {name: "Social Media Project",
     description: "sf",
     tags: "JS, React, HTML/CSS, Firebase",

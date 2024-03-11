@@ -371,7 +371,7 @@ hr{
   
   display: grid;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom: 180px;
   grid-template-columns: 30% 30%;
   justify-content: center;
   align-items: center;
@@ -413,6 +413,13 @@ hr{
   width: 450px;
   height: 260px;
 }
+#box5{
+  background-image: url(../public/ss5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 450px;
+  height: 260px;
+}
 
 h1{
   font-family: 'Playfair Display', serif;
@@ -426,9 +433,9 @@ h1{
 .area{
   
   display: flex;
-  margin-bottom: 30px;
+  
   justify-content: space-evenly;
-  padding-top: 100px;
+  
   
 }
 .text1{
@@ -439,7 +446,7 @@ h1{
   border-style: solid;
   border-width: 1px;
   border-color: #032A23;
-  margin-bottom: 100px;
+  
   text-align: left;
 }
 .image1{
