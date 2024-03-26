@@ -9,9 +9,7 @@ export const Contact = () => {
             <h1 id="contactTitle">Contact</h1>
             <hr />
             <div className="contactdisplay">
-                <div className="contimg">
-                    
-                </div>
+                
                 <div className="conttext">
                     <div className="contsocials">
                         <div className="insta">

@@ -10,25 +10,77 @@ export const About = () => {
         <hr />
         <div className="aboutdisplay">
             <div className="area">
-            
-            <div className="text1">Thank you to each and every one of you who takes the time to view my portfolio. I have been working towards my career in web development since 2019 when I started at Ivy Tech Community College in Indiana. I earned my first degree in Software Development here, as well as a certificate in Software Application Development. My plan was always to get a 4 year degree, so I immediately transferred to IUPUI to earn my B.S in Informatics. This degree really helped me develop my technical skills as well as my user empathy skills since I was able to take many UX/ HCI based classes.</div>
-            </div>
-            <hr />
-            <div className="area">
-                <div className="text1"> I recently completed a year long internship as a web developer and designer which gave me a vast amount of real world experience using a CMS and creating ads for websites. I was able to sit in with vendors of the company and discuss website design and development on a weekly basis. I have spent many hours outside of school and internships to develop my web development abilities. I started with HTML and CSS, and worked my way up to where I am now. I am currently learning more backend technologies and frameworks, such as Node.js, to better be able to create dynamic websites and utilize servers. When I'm not in class you can find me reading. I have a crazy collection of books and the last time I counted I had about 300. I am so excited to hear any questions you may have, so please feel free to email me any time!</div>
-                
-            </div>
-            <hr />
-            <div className="area">
-                
-                <div className="text2">
-                    <p>@ I enjoy rewatching Bridgerton every couple of months.</p>
-                    <p>@ I love to read and own about 300 books.</p>
-                    <p>@ I have watched The Hobbit trilogy 5 times.</p>
-                    <p>@ I paint in my free time (acrylic and water).</p>
-                    <p>@ I like to earn certificates in fun things, like graphic design.</p>
-                    
+                <div className="left">
+                    <h2>Work Experience</h2>
                 </div>
+                <div className="right">
+                    <div className="workHead">
+                        <div className="date"><p>Sept.2022 -<br/>Aug. 2023</p></div>
+                        <div className="workTitle"><p>Web Developer Internship</p></div>
+                    </div>
+                    <div className="workInfo">
+                        <ul id="workList">
+                            <li>
+                           Made coding updates to the company website using HTML, Javascript, and Bootstrap, leading to an increase in positive web site interactions.
+                            </li>
+                            <li>
+                            Update intranet with content as they were delivered to me by all departments of the company, as well as from international offices using a CMS (Sitefinity), leading to a rise in positive employee interactions.
+                            </li>
+                            <li>
+                          Attended multiple weekly meetings with a vendor on site redesign and development.  
+                            </li>
+                            <li>
+                            Allocated a minimum of one hour every day to developing JavaScript/ React / Bootstrap skills which increased content integration speed by more than 100%.
+                            </li>
+                            <li>
+                            Led research for new ways to manage the website, UX topics for web design, and ways to implement bootstrap on the current website, resulting in my team improving the UX of the new site design.
+                            </li>
+                            <li>
+                            Managed all social media platforms and in charge of content creation, as well as social media analytics, which increased social media following by over 200% for one month.
+                            </li>
+                            <li>
+                           Used feedback from over 10 departments within company to improve website content.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="area">
+                   <div className="left">
+                        <h2>Education</h2>
+                </div>
+                <div className="right">
+                <div className="eduHead">
+                    <div className="eduItem">
+                        <div className="date"><p>Aug.2022 -<br/>May. 2024</p></div>
+                        <div className="workTitle">
+                            <p>B.S Informatics @ IUPUI</p>
+                            <p id="nobold">Concentration and certificate in human-computer interactions.</p>
+                            <p id="nobold">Started as a dual major in Info and Media Arts, but early on decided to focus on UX and HCI.</p>
+                            </div>
+                            </div>
+
+                            <div className="eduItem">
+
+                            <div className="date"><p>Aug.2019 -<br/>May. 2022</p></div>
+                        <div className="workTitle">
+                            <p>A.S Software Development @ Ivy Tech</p>
+                            <p id="nobold">Concentration in software and application development.</p>
+                            <p id="nobold">Started as a computer science major but discovered quickly that I loved the human side of development more than the code. I also had a strong pull to design classes such as art history and visual communication.</p>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div className="area">
+            <div className="left">
+                    <h2>Skills</h2>
+</div>
+<div className="right">
+    <div className="skillContainer">
+    <p id="skills">React, JavaScript, typescript, jQuery, EJS, Sass, Node.js, Express, Jest testing, Python, C++, Bootstrap, Sitefinity, JSON, CMS, HTML, CSS, GitHub, Git, API development, UX, UI, Figma, Linux commands, SQL, phpMyAdmin, Communication, Creativity, Enthusiasm, Positivity</p>
+    </div>
+</div>
             </div>
             
         </div>
