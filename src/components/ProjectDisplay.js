@@ -1,6 +1,14 @@
 export const ProjectDisplay = () => {
    
     const projects = [
+        {name: "Travel Booking Site",
+    description: "sf",
+    tags: "Typescript, Materials UI, React, HTML/CSS",
+    color: "#672243",
+    id: "box6",
+    projurl: "https://stephanie01011011.github.io/travelsite/",
+    giturl: "https://github.com/Stephanie01011011/travelsite"
+},
         {name: "Product Landing Page",
     description: "sf",
     tags: "JS, React, HTML/CSS, Bootstrap",

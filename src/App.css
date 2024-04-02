@@ -174,12 +174,12 @@ hr{
   justify-content: space-between;
 }
 .skillswrapper{
-  background-color: #032A23;
+  background-color: white;
   margin-bottom: -20px;
 }
 .skillswrapper h1{
   font-size: 84px;
-  color: white;
+  color: #032A23;
 }
 .skillbox{
   color: white;
@@ -420,6 +420,13 @@ hr{
   width: 450px;
   height: 260px;
 }
+#box6{
+  background-image: url(../public/ss6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 450px;
+  height: 260px;
+}
 
 h1{
   font-family: 'Playfair Display', serif;
@@ -558,8 +565,9 @@ h1{
 
 }
 #topBtn{
-  color: white;
+  color: #032A23;
   text-decoration: underline;
+  margin-bottom: 50px;
   
 }
 #topBtn:hover{

@@ -22,7 +22,7 @@ export const Skills = () => {
             })}
             </div>
             <div className="skillbtn">
-            <a href="https://www.linkedin.com/in/slivengood01/details/featured/1635551310909/single-media-viewer/?profileId=ACoAADHDYysBKolT3tXI-IFLrIKkbWWaFoDHtFM" id="skillsBtn">See More</a>
+            <a href="https://www.linkedin.com/in/slivengood01" id="skillsBtn">See LinkedIn</a>
             </div>
             <p id="topBtn" onClick={() => {
                  window.scrollTo(0, 0)
