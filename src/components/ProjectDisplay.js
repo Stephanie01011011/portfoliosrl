@@ -6,7 +6,7 @@ export const ProjectDisplay = () => {
     tags: "Typescript, Materials UI, React, HTML/CSS",
     color: "#672243",
     id: "box6",
-    projurl: "https://stephanie01011011.github.io/",
+    projurl: "https://stephanie01011011.github.io/travelsite/",
     giturl: "https://github.com/Stephanie01011011/travelsite"
 },
         {name: "Product Landing Page",
