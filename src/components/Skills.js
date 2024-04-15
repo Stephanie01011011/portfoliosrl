@@ -16,7 +16,7 @@ export const Skills = () => {
             <div className="skillboxwrapper">
             {skills.map((skill) => {
                 return(
-                    <div className="skillbox" style={{backgroundColor: skill.color}}><h2>{skill.skill}</h2></div>
+                    <div className="skillbox" style={{backgroundColor: skill.color}}><div className='skilltext'><h2>{skill.skill}</h2></div></div>
                     
                 )
             })}

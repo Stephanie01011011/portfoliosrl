@@ -188,7 +188,7 @@ hr{
 }
 .skillbox{
   color: white;
-  
+  display: flex;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
@@ -451,7 +451,9 @@ h1{
   justify-content: space-evenly;
   width: 100%;
   
+  
 }
+
 .eduHead{
 
 }
@@ -642,13 +644,26 @@ h1{
 }
 .area{
   
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
   align-items: center;
   justify-content: center;
   padding-top: 60px;
   
 }
+.workTitle{
+  width: max-content;
+  text-align: center;
+  
+}
+#skills{
+  text-align: center;
+}
+#nobold{
+  text-align: left;
+}
+
 .text1{
   margin: auto;
   width: 90%;
@@ -830,6 +845,7 @@ h1{
   .image2{
     display: none;
   }
+  
 
   
 }
