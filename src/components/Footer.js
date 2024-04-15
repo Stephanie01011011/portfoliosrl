@@ -4,7 +4,7 @@ export const Footer = () => {
     return(
         <div className="footerwrapper">
         <div className="spacing"></div>
-        <hr />
+        
         <div className="links">
             <div className="nameandlinks">
                 <h1>Stephanie</h1>

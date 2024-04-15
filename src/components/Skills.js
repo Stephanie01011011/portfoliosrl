@@ -1,15 +1,15 @@
 export const Skills = () => {
-    const skills = [{skill: "React", color: "#8D7A4A"}, 
-    {skill: "javascript", color: "#672243"}, 
-    {skill: "HTML/ CSS", color: "#3E523F"}, 
-    {skill: "Bootstrap", color: "#35334C"}, 
+    const skills = [{skill: "React", color: "#EF6D57"}, 
+    {skill: "Javascript", color: "#10315B"}, 
+    {skill: "Typescript", color: "#B2214E"}, 
+    {skill: "Bootstrap", color: "#008DC4"}, 
      
     
     
-    {skill: "API's", color: "#35334C"},
-    {skill: "UX Design", color: "#3E523F"}, 
-    {skill: "Adobe", color: "#672243"}, 
-    {skill: "Python", color: "#8D7A4A"}]
+    {skill: "Material UI", color: "#008DC4"},
+    {skill: "UX Design", color: "#B2214E"}, 
+    {skill: "Adobe", color: "#10315B"}, 
+    {skill: "Python", color: "#EF6D57"}]
     return(
         <div className="skillswrapper">
             <h1>Skills</h1>

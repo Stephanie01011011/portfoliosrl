@@ -11,6 +11,11 @@ export const Home = () => {
     return(
         <div className="homeWrapper">
             <div className="hero">
+                <div className="heroItems">
+                <h1 style={{color: 'white', fontSize: '100px', marginTop: 0}}>Frontend Developer</h1>
+                <h1 style={{color: 'white'}}>Stephanie Livengood</h1>
+                </div>
+               
                 
             </div>
             <Link to="/portfoliosrl/projects"><button id="projectBtn">Projects</button></Link>
