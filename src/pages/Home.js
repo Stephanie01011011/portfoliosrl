@@ -12,7 +12,7 @@ export const Home = () => {
         <div className="homeWrapper">
             <div className="hero">
                 <div className="heroItems">
-                <h1 style={{color: 'white', fontSize: '100px', marginTop: 0}}>Frontend Developer</h1>
+                <h1 style={{color: 'white', fontSize: '100px', marginTop: 0}}>UX/UI Development</h1>
                 <h1 style={{color: 'white'}}>Stephanie Livengood</h1>
                 </div>
                

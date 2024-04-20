@@ -10,8 +10,8 @@ export const Welcome = () => {
             <hr />
             <div className="textimgwrapper">
             <div className="welcmsgwrapper">
-            <p id="welcomemsg">My name is Stephanie and I am so glad you’ve made it to my portfolio. As a quick introduction, I started college in 2019 to become a web developer and have obtained numerous certificates on the way. Please check out the pages of this site to learn more about me and my process.</p>
-            <Link to="/portfoliosrl/about"><button id="welcomeBtn">About Me</button></Link>
+            <p id="welcomemsg">My name is Stephanie and I am so glad you’ve made it to my portfolio. As a quick introduction, I started college in 2019 studying informatics with a concentration in human-computer interaction, and have obtained numerous certificates along the way. Please check out the pages of this site to see my projects and learn more about my process.</p>
+            <Link to="/portfoliosrl/contact"><button id="welcomeBtn">Contact Me</button></Link>
             </div>
             <div className="welcomeimg"></div>
             </div>
