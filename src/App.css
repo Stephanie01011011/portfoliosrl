@@ -359,7 +359,27 @@ hr{
   margin: 0;
   
 }
+.projTitleWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+}
+
+.ux{
+  width: 600px;
+  display: flex;
+  margin-right: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#aboutPara{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
+  line-height: 2;
+}
 #box2{
   background-image: url(../public/ss2.png);
   background-repeat: no-repeat;

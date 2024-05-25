@@ -7,6 +7,7 @@ export const About = () => {
     return(
         <div className="aboutwrapper">
         <h1 id="aboutTitle">About Me</h1>
+        <h3 id="aboutPara">Hello! I am Stephanie Livengood (Lye-VIN-good), and yes, I am living good. I've heard this joke every year since kindergarten and it never gets old (*sarcasm*). Besides having a fun last name, I am also an avid reader. I have a collection of over 300 books of all genres and I hope to one day have enough to be classified a library. When I am not learning and developing projects, you can find me reading, watching Bridgerton over and over again, playing Xbox, or listening to music. My favorite artists are Hozier, Taylor Swift, and Ghost right now, but I love all genres, including everything from classical to synthwave. My friends and family would describe me as upbeat, funny, and hard working. While in college I rarely ever took a break from learning and I loved collecting certificates in anything I was interested in at the time. Please message me if you want to know anything else about ME!</h3>
         <hr />
         <div className="aboutdisplay">
             <div className="area">

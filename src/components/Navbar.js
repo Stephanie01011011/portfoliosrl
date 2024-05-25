@@ -24,7 +24,7 @@ export const Navbar = () => {
         
         <Link to="/portfoliosrl" id='homelink'><p>Home</p></Link>
         <Link to="/portfoliosrl/projects" id='projectlink'><p>Projects</p></Link>
-       
+        <Link to="/portfoliosrl/about" id='aboutlink'><p>About</p></Link>
         <Link to="/portfoliosrl/contact" id='contactlink'><p>Contact</p></Link>
 
     </ul>
