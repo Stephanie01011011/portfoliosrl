@@ -7,7 +7,12 @@ body{
 }
 
 
-
+.mobileMenu{
+  display: none;
+}
+.menuIcon{
+  display: none;
+}
 .hero{
   height: 60vh;
   background-image: url(../public/pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg);
@@ -125,6 +130,7 @@ hr{
 .welcmsgwrapper{
   width: 400px;
   text-align: center;
+  
 }
 .welcomeimg{
   background-image: url(../public/undraw_dev_focus_re_6iwt.svg);
@@ -135,6 +141,7 @@ hr{
   margin-right: 10%;
   border-radius: 80px 80px 0px 0px;
   transition: all 1s;
+ 
 }
 .welcomeimg:hover{
   transform: translateX(30px);
@@ -146,6 +153,10 @@ hr{
 .skillswrapper{
   background-color: white;
   margin-bottom: -20px;
+  
+}
+.skillswrapper #skillTitle {
+  font-size: 46px;
 }
 .skillswrapper h1{
   font-size: 84px;
@@ -160,6 +171,7 @@ hr{
   justify-content: center;
   max-height: 180px;
   min-height: 180px;
+  
 }
 .skillbox h2{
   padding: 50px;
@@ -445,9 +457,7 @@ h1{
   
 }
 
-.eduHead{
 
-}
 .eduItem{
   display: flex;
   justify-content: space-evenly;
@@ -588,13 +598,57 @@ h1{
   .name{
     display: none;
   }
-  .navWrapper{
-    align-items: center;
-    justify-content: center;
-    
-    
-    
+  .projTitleWrapper{
+    display: block;
   }
+  .ux{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+  #projectTitle{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+  .title p h1{
+    text-align: center;
+  }
+  #welcomemsg{
+    margin: auto;
+    text-align: center;
+  }
+  #welcomeBtn{
+    margin: auto;
+    margin-top: 10px;
+  }
+  #fullmenu{
+    display: none;
+  }
+  .menuIcon{
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .mobileMenu{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    margin-top: 0;
+    font-size: 56px;
+  }
+  .mobileMenu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
   ul{
     display: block;
   }
@@ -607,6 +661,8 @@ h1{
   }
 .welcomeimg{
   display: none;
+  
+  
 }
 .skillboxwrapper{
   display: grid;
@@ -616,6 +672,7 @@ h1{
   justify-content: center;
   align-items: center;
   gap: 20px;
+  
 
 }
 #footerLinks{
@@ -679,9 +736,24 @@ h1{
 }
   
 }
-@media screen and (max-width: 460px){
+@media screen and (max-width: 400px){
 .title{
   text-align: center;
+  
+}
+#fullmenu{
+  display: none;
+}
+.menuIcon{
+  display: block;
+  width: 100%;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heroItems{
+  color: red;
 }
 
   #largeText{
@@ -746,7 +818,7 @@ h1{
   }
   .hero{
     height: 30vh;
-    background-image: url(../public/Web\ Developer.png);
+    background-image: url(../public/pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

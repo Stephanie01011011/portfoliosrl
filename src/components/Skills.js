@@ -12,7 +12,7 @@ export const Skills = () => {
     {skill: "Python", color: "#EF6D57"}]
     return(
         <div className="skillswrapper">
-            <h1>Skills</h1>
+            <h2 id="skillTitle">Skills</h2>
             <div className="skillboxwrapper">
             {skills.map((skill) => {
                 return(
