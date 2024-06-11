@@ -19,7 +19,7 @@ export const Home = () => {
                
                 
             </div>
-            <Link to="/portfoliosrl/projects"><button id="projectBtn">Projects</button></Link>
+            <Link to="/projects"><button id="projectBtn">Projects</button></Link>
             <Welcome />
             <Skills />
             
