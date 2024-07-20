@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfoliosrl/static/css/main.aa93cf19.css",
-    "main.js": "/portfoliosrl/static/js/main.123e1e31.js",
+    "main.css": "/portfoliosrl/static/css/main.b20d0500.css",
+    "main.js": "/portfoliosrl/static/js/main.677ba28f.js",
     "static/media/ss7.png": "/portfoliosrl/static/media/ss7.b603cf7d0c822ecc4d7f.png",
     "static/media/ss5.png": "/portfoliosrl/static/media/ss5.b285346889326c18e75b.png",
     "static/media/pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg": "/portfoliosrl/static/media/pawel-czerwinski-NTYYL9Eb9y8-unsplash.942b19e8aa72149d18dd.jpg",
@@ -10,16 +10,17 @@
     "static/media/ss1.png": "/portfoliosrl/static/media/ss1.8c20d4b3d0e0f7864ed8.png",
     "static/media/ss3.png": "/portfoliosrl/static/media/ss3.2407389af831e2892830.png",
     "static/media/contactImg.png": "/portfoliosrl/static/media/contactImg.051c47b5d3f31c84a152.png",
+    "static/media/ss8.png": "/portfoliosrl/static/media/ss8.04db33a948ac6dc08c5b.png",
     "static/media/socialmediaproj.png": "/portfoliosrl/static/media/socialmediaproj.0156ca6e2df7557bc23e.png",
     "static/media/3259374_github_media_social_icon.png": "/portfoliosrl/static/media/3259374_github_media_social_icon.3fc3e932c8badf5dd303.png",
     "static/media/6929237_instagram_icon.png": "/portfoliosrl/static/media/6929237_instagram_icon.e403234cec2d4d1cf45c.png",
     "static/media/undraw_dev_focus_re_6iwt.svg": "/portfoliosrl/static/media/undraw_dev_focus_re_6iwt.8cb69ec34dcbcae2e6c4.svg",
     "index.html": "/portfoliosrl/index.html",
-    "main.aa93cf19.css.map": "/portfoliosrl/static/css/main.aa93cf19.css.map",
-    "main.123e1e31.js.map": "/portfoliosrl/static/js/main.123e1e31.js.map"
+    "main.b20d0500.css.map": "/portfoliosrl/static/css/main.b20d0500.css.map",
+    "main.677ba28f.js.map": "/portfoliosrl/static/js/main.677ba28f.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa93cf19.css",
-    "static/js/main.123e1e31.js"
+    "static/css/main.b20d0500.css",
+    "static/js/main.677ba28f.js"
   ]
 }
