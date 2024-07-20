@@ -9,6 +9,14 @@ export const ProjectDisplay = () => {
         projurl: "https://stephanie01011011.github.io/starwars/",
         giturl: "https://github.com/Stephanie01011011/starwars"
     },
+    {name: "Exercise Tracker",
+        description: "sf",
+        tags: "Node.js, Express, React, HTML/CSS, Render",
+        color: "#008DC4",
+        id: "box8",
+        projurl: "https://stephanie01011011.github.io/workoutlog-frontend/",
+        giturl: "https://github.com/Stephanie01011011/workoutlog"
+    },
         {name: "Travel Booking Site",
     description: "sf",
     tags: "Typescript, Materials UI, React, HTML/CSS",

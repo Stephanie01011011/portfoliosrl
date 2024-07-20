@@ -434,6 +434,13 @@ hr{
   width: 450px;
   height: 260px;
 }
+#box8{
+  background-image: url(../public/ss8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 450px;
+  height: 260px;
+}
 
 h1{
   font-family: 'Playfair Display', serif;
