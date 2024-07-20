@@ -10,7 +10,7 @@ export const Projects = () => {
             <div className="projTitleWrapper">
             <h1 id="projectTitle">Projects</h1>
             <div className="ux">
-            <h3 style={{marginTop: "40px"}}>Want to see my UX/UI portfolio?</h3>
+            <h3 style={{marginTop: "40px", color: 'white'}}>Want to see my UX/UI portfolio?</h3>
             <a href="https://sreneelive9.wixsite.com/steph-create" className="skillbtn" style={{textDecoration: "none", color: "black"}}>UX Portfolio</a>
             </div>
             </div>

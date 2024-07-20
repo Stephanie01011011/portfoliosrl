@@ -4,7 +4,7 @@ export const ProjectDisplay = () => {
         {name: "Star Wars Adventure",
         description: "sf",
         tags: "Typescript, Materials UI, React, HTML, Star Wars API",
-        color: "#008DC4",
+        color: "#292929",
         id: "box7",
         projurl: "https://stephanie01011011.github.io/starwars/",
         giturl: "https://github.com/Stephanie01011011/starwars"
@@ -12,7 +12,7 @@ export const ProjectDisplay = () => {
     {name: "Exercise Tracker",
         description: "sf",
         tags: "Node.js, Express, React, HTML/CSS, Render",
-        color: "#008DC4",
+        color: "#292929",
         id: "box8",
         projurl: "https://stephanie01011011.github.io/workoutlog-frontend/",
         giturl: "https://github.com/Stephanie01011011/workoutlog"
@@ -20,7 +20,7 @@ export const ProjectDisplay = () => {
         {name: "Travel Booking Site",
     description: "sf",
     tags: "Typescript, Materials UI, React, HTML/CSS",
-    color: "#008DC4",
+    color: "#292929",
     id: "box6",
     projurl: "https://stephanie01011011.github.io/travelsite/",
     giturl: "https://github.com/Stephanie01011011/travelsite"
@@ -28,7 +28,7 @@ export const ProjectDisplay = () => {
         {name: "Product Landing Page",
     description: "sf",
     tags: "JS, React, HTML/CSS, Bootstrap",
-    color: "#008DC4",
+    color: "#292929",
     id: "box5",
     projurl: "https://stephanie01011011.github.io/solarise/",
     giturl: "https://github.com/Stephanie01011011/solarise"
@@ -36,7 +36,7 @@ export const ProjectDisplay = () => {
         {name: "Social Media Project",
     description: "sf",
     tags: "JS, React, HTML/CSS, Firebase",
-    color: "#008DC4",
+    color: "#292929",
     id: "box3",
     projurl: "https://socialmedia-792e1.web.app/",
     giturl: ""
@@ -44,14 +44,14 @@ export const ProjectDisplay = () => {
         {name: "Weather App",
     description: "sf",
     tags: "JS, HTML/CSS, API Integration, React",
-    color: "#008DC4",
+    color: "#292929",
     id: "box1",
     projurl: "https://react-weather-api-steph.netlify.app/",
     giturl: "https://github.com/Stephanie01011011/react-weather"
 }, {name: "To Do List",
 description: "sf",
 tags: "JS, React, HTML/CSS",
-color: "#008DC4",
+color: "#292929",
 id: "box2",
 projurl: "https://Stephanie01011011.github.io/ReactTodo",
     giturl: "https://github.com/Stephanie01011011/ReactTodo"
@@ -60,7 +60,7 @@ projurl: "https://Stephanie01011011.github.io/ReactTodo",
 {name: "Flash Card Quiz App",
     description: "sf",
     tags: "JS, React, HTML/CSS",
-    color: "#008DC4",
+    color: "#292929",
     id: "box4",
     projurl: "https://stephanie01011011.github.io/flashcardweb",
     giturl: "https://github.com/Stephanie01011011/flashcardweb"
@@ -72,11 +72,12 @@ projurl: "https://Stephanie01011011.github.io/ReactTodo",
             {projects.map((project) => {
                 return(
                     <div className="project">
+                        <h3>{project.name}</h3>
                     <div className="projectbox">
                         <div className="projimg" id={project.id}></div>
                         <div className="projtext" style={{backgroundColor: project.color}}>
                             
-                        <h3>{project.name}</h3>
+                        
                         <p>{project.tags}</p>
                         
                         </div>
