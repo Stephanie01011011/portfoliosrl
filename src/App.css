@@ -433,13 +433,7 @@ hr{
   width: 450px;
   height: 260px;
 }
-#box5{
-  background-image: url(../public/ss5.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 450px;
-  height: 260px;
-}
+
 #box6{
   background-image: url(../public/ss6.png);
   background-repeat: no-repeat;
@@ -456,6 +450,13 @@ hr{
 }
 #box8{
   background-image: url(../public/ss8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 450px;
+  height: 260px;
+}
+#box9{
+  background-image: url(../public/ss9.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 450px;

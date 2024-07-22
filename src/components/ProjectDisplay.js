@@ -9,6 +9,14 @@ export const ProjectDisplay = () => {
         projurl: "https://stephanie01011011.github.io/starwars/",
         giturl: "https://github.com/Stephanie01011011/starwars"
     },
+    {name: "Book Store",
+        description: "sf",
+        tags: "Node.js, Express, React, HTML/CSS, Render",
+        color: "#292929",
+        id: "box9",
+        projurl: "https://stephanie01011011.github.io/fablefrontend/",
+        giturl: "https://github.com/Stephanie01011011/fablefrontend"
+    },
     {name: "Exercise Tracker",
         description: "sf",
         tags: "Node.js, Express, React, HTML/CSS, Render",
@@ -25,15 +33,8 @@ export const ProjectDisplay = () => {
     projurl: "https://stephanie01011011.github.io/travelsite/",
     giturl: "https://github.com/Stephanie01011011/travelsite"
 },
-        {name: "Product Landing Page",
-    description: "sf",
-    tags: "JS, React, HTML/CSS, Bootstrap",
-    color: "#292929",
-    id: "box5",
-    projurl: "https://stephanie01011011.github.io/solarise/",
-    giturl: "https://github.com/Stephanie01011011/solarise"
-},
-        {name: "Social Media Project",
+    
+    {name: "Social Media Project",
     description: "sf",
     tags: "JS, React, HTML/CSS, Firebase",
     color: "#292929",
