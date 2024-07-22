@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portfoliosrl/static/css/main.21a40020.css",
-    "main.js": "/portfoliosrl/static/js/main.959b238e.js",
+    "main.css": "/portfoliosrl/static/css/main.af1b37db.css",
+    "main.js": "/portfoliosrl/static/js/main.1a9069b1.js",
     "static/media/ss7.png": "/portfoliosrl/static/media/ss7.b603cf7d0c822ecc4d7f.png",
-    "static/media/ss5.png": "/portfoliosrl/static/media/ss5.b285346889326c18e75b.png",
+    "static/media/ss9.png": "/portfoliosrl/static/media/ss9.5c70fb94528247a9b394.png",
     "static/media/pawel-czerwinski-NTYYL9Eb9y8-unsplash.jpg": "/portfoliosrl/static/media/pawel-czerwinski-NTYYL9Eb9y8-unsplash.942b19e8aa72149d18dd.jpg",
     "static/media/ss2.png": "/portfoliosrl/static/media/ss2.23039676736207871c3e.png",
     "static/media/ss6.png": "/portfoliosrl/static/media/ss6.9b0f17af7762fd83c8ea.png",
@@ -16,11 +16,11 @@
     "static/media/6929237_instagram_icon.png": "/portfoliosrl/static/media/6929237_instagram_icon.e403234cec2d4d1cf45c.png",
     "static/media/undraw_dev_focus_re_6iwt.svg": "/portfoliosrl/static/media/undraw_dev_focus_re_6iwt.8cb69ec34dcbcae2e6c4.svg",
     "index.html": "/portfoliosrl/index.html",
-    "main.21a40020.css.map": "/portfoliosrl/static/css/main.21a40020.css.map",
-    "main.959b238e.js.map": "/portfoliosrl/static/js/main.959b238e.js.map"
+    "main.af1b37db.css.map": "/portfoliosrl/static/css/main.af1b37db.css.map",
+    "main.1a9069b1.js.map": "/portfoliosrl/static/js/main.1a9069b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.21a40020.css",
-    "static/js/main.959b238e.js"
+    "static/css/main.af1b37db.css",
+    "static/js/main.1a9069b1.js"
   ]
 }
